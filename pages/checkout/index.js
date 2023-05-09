@@ -550,7 +550,7 @@ class CheckoutPage extends Component {
             <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0">
               {/* Breadcrumbs */}
               <div className="d-flex pb-4 breadcrumb-container">
-                <Link href="/collection">
+                <Link legacyBehavior href="/collection">
                   <a className="font-color-dark font-size-caption text-decoration-underline cursor-pointer">
                     Cart
                   </a>

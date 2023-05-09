@@ -17,7 +17,6 @@ const Home = () => (
 
     <HeroSection />
     <HomeBanner />
-    <CategoryBanner />
     <ProductsBanner />
     <ExploreBanner />
     <SocialMedia />

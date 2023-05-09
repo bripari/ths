@@ -13,7 +13,7 @@ export default connect(({ categories }) => ({ categories }))(
       <ul style={{ 'listStyleType': 'none' }} className="pl-0">
         { categories.map(category => (
           <li key={category.slug}>
-            <Link href={`/collection#${category.slug}`}>
+            <Link legacyBehavior href={`/collection#${category.slug}`}>
               <a
                 style={{ 'fontWeight': current === category.id && 'bold' }}
                 key={category.id} className="pb-2 cursor-pointer font-color-black"

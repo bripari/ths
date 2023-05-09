@@ -16,7 +16,7 @@ const LoggedOut = () => (
             <h2 className="font-size-header mb-4 pt-5">
               You have successfully logged out.
             </h2>
-            <Link href="/" className="mt-4">
+            <Link legacyBehavior href="/" className="mt-4">
               <a>Continue shopping</a>
             </Link>
           </div>

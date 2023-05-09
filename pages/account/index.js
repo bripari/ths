@@ -199,7 +199,7 @@ class CustomerAccountPage extends Component {
             <tr key={ order.id }>
               <td>
                 <div>
-                  <Link href={`account/${order.id}`}>
+                  <Link legacyBehavior href={`account/${order.id}`}>
                     <a>#{ order.customer_reference }</a>
                   </Link>
                 </div>
@@ -213,7 +213,7 @@ class CustomerAccountPage extends Component {
               </td>
               <td>{ order.order_value.formatted_with_symbol }</td>
               <td>
-                <Link href={`account/${order.id}`}>
+                <Link legacyBehavior href={`account/${order.id}`}>
                   <a>View order</a>
                 </Link>
               </td>

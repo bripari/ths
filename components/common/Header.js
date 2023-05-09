@@ -145,7 +145,7 @@ class Header extends Component {
               Hi, { customer.firstname }!
             </span>
           ) }
-          <Link href="/account">
+          <Link legacyBehavior href="/account">
             <a className="font-color-black mx-2">
               My account
             </a>
@@ -162,7 +162,7 @@ class Header extends Component {
     }
 
     return (
-      <Link href="/login">
+      <Link legacyBehavior href="/login">
         <a className="font-color-black login">
           Login
         </a>
@@ -184,10 +184,10 @@ class Header extends Component {
           }`}
         >
           <div className="d-none d-sm-flex">
-            <Link href="/collection">
+            <Link legacyBehavior href="/collection">
               <a className="mr-4 font-color-black">Shop</a>
             </Link>
-            <Link href="/about">
+            <Link legacyBehavior href="/about">
               <a className="font-color-black">About</a>
             </Link>
           </div>
@@ -198,10 +198,10 @@ class Header extends Component {
               className="w-32 mr-1 d-block d-sm-none"
               alt="Menu icon"
             />
-            <Link href="/">
+            <Link legacyBehavior href="/">
               <a>
                 <img
-                  src="/images/commerce.svg"
+                  src="/images/logoz.svg"
                   className="logo cursor-pointer"
                   alt="Logo"
                 />
@@ -242,7 +242,7 @@ class Header extends Component {
                 }}
               >
                 {mobileMenuLinks.map((item, i) => (
-                  <Link key={i} href={item.link}>
+                  <Link legacyBehavior key={i} href={item.link}>
                     <a className="d-block mb-4 font-size-heading font-color-white text-center">
                       {item.name}
                     </a>

@@ -9,11 +9,11 @@ import Footer from '../components/common/Footer';
 const Home = () => (
   <Root>
     <Head>
-      <title>Collection</title>
+      <title>The Terrific Heat Collection</title>
     </Head>
     <Collections />
+
     <ExploreBanner />
-    <SocialMedia />
     <Footer />
   </Root>
 );

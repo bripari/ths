@@ -180,7 +180,7 @@ export default function SingleOrderPage() {
               <div className="col-12">
                 {/* Breadcrumbs */}
                 <div className="d-flex pb-4 breadcrumb-container">
-                  <Link href="/account">
+                  <Link legacyBehavior href="/account">
                     <a className="font-size-caption text-decoration-underline cursor-pointer font-color-black">
                       Account
                     </a>

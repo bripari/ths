@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function ProductCard({ permalink, image, name, description, price, soldOut}) {
   return (
-    <Link href="/product/[permalink]" as={`/product/${permalink}`}>
+    <Link legacyBehavior href="/product/[permalink]" as={`/product/${permalink}`}>
       <a className="mb-5 d-block font-color-black cursor-pointer">
         <div
           className="mb-3"
